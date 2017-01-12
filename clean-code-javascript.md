@@ -5,8 +5,8 @@
 # javascript的代码整洁之道
 [原文链接](https://github.com/ryanmcdermott/clean-code-javascript/blob/master/README.md)
 
-## table-of-contents
-  1. [介绍](#introduction)
+## 目录
+  1. [简介](#introduction)
   2. [变量](#variables)
   3. [函数](#functions)
   4. [对象和数据结构](#objects-and-data-structures)
@@ -17,7 +17,7 @@
   9. [代码风格](#formatting)
   10. [Comments](#comments)
 
-## Introduction
+## 简介
 ![Humorous image of software quality estimation as a count of how many expletives
 you shout when reading code](http://www.osnews.com/images/comics/wtfm.jpg)
 
@@ -45,7 +45,7 @@ we review it with our peers. Don't beat yourself up for first drafts that need
 improvement. Beat up the code instead!
 
 ## **变量**
-### Use meaningful and pronounceable variable names
+### 使用有意义和可读的变量名字
 
 **Bad:**
 ```javascript
@@ -56,7 +56,7 @@ const yyyymmdstr = moment().format('YYYY/MM/DD');
 ```javascript
 const yearMonthDay = moment().format('YYYY/MM/DD');
 ```
-**[⬆ back to top](##table-of-contents)**
+**[⬆ back to top](##目录)**
 
 ### Use the same vocabulary for the same type of variable
 
